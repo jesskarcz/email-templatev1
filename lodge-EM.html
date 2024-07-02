@@ -1,0 +1,428 @@
+<%
+var version = targetData.VERSION;
+var MISC2 = targetData.MISC2; 
+var FirstName = targetData.FSTNAM;
+ 
+
+var Salutation.name='';
+if (FirstName != "") {
+    FirstName = FirstName.trim();
+    Salutation.name = "".concat(FirstName, ", d");
+  } else {
+    Salutation.name = "D";
+  }
+
+%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" 
+ xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<title>EMAIL TITLE</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+  </style>
+<style type="text/css">
+/* Force Hotmail to display emails at full width */
+.ReadMsgBody {
+  width: 100%;
+  background-color: #eeeeee;
+}
+/* Force Hotmail to display emails at full width */
+.ExternalClass {
+  width: 100%;
+  background-color: #eeeeee;
+}
+/* Forces Hotmail to display normal line spacing. */
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+  line-height: 100%;
+}
+/* Resolves webkit padding issue. */
+table {
+  border-spacing: 0;
+}
+/* Resolves the Outlook 2007, 2010, and Gmail td padding issue. */
+table td {
+  border-collapse: collapse;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+/* Yahoo auto-sensing link color and border */
+.yshortcuts a {
+  border-bottom: none !important;
+}
+a.white, a.white:visited {
+  color: #ffffff;
+}
+a {
+  color: inherit;
+}
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+sup {
+  font-size: 55%;
+  line-height: 1.25;
+  vertical-align: top;
+  mso-text-raise: 30%;
+}
+div.preheader {
+  display: none !important;
+}
+.hideDesk{
+  display: none !important;
+}
+.show{
+  display: inline !important;
+}
+@media only screen and (max-width: 599px) {
+/* Constrain email width for small screens */
+.email-container {
+  width: 100% !important;
+  min-width: 320px !important;
+}
+.width90 {
+  width: 90% !important;
+}
+.width100 {
+  width: 100% !important;
+}
+.mainimage {
+  width: 100% !important;
+  display: block !important;
+  height: auto !important;
+}
+.mainimage90 {
+  width: 90% !important;
+  display: block !important;
+  height: auto !important;
+}
+.hide {
+  display: none !important;
+}
+.showMob{
+  display: block !important;
+}
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+</xml>
+<style type="text/css">
+sup {font-size: 100% !important;}
+</style>
+<![endif]-->
+
+</head>
+<body bgcolor="#ffffff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="margin:0; padding:0;-webkit-text-size-adjust:none; -ms-text-size-adjust:none;">
+<!--[if mso]>
+<style type="text/css">
+body, table, td, p, span, a {font-family: Arial, Helvetica, sans-serif !important;}
+</style>
+<![endif]-->
+
+<!-- Preview text starts -->
+<div style="font-size: 1px; display: none !important;"> Happy 4th of July 🇺🇸✨</div>
+<!-- Preview text ends --> 
+
+<table class="email-container" style="border: #f5f6f7 1px solid; width: 600px; min-width: 600px; margin-left: auto; margin-right: auto" cellspacing="0" cellpadding="0" width="600" align="center" border="0">
+  <tr>
+    <td align="center"><table class="width100" cellspacing="0" cellpadding="0" width="600" border="0">
+      <tr>
+        <td style="font-size: 12px; font-family: 'Open Sans', Arial, Helvetica, sans-serif; color: #0A3161; padding-bottom: 20px; padding-top: 20px; padding-left: 10px; line-height: 21px; padding-right: 10px" align="left"> Celebrate Independence Day with Unbeatable Travel Lodge Deals! 🇺🇸✨</td>
+        <td style="font-size: 12px; font-family: 'Open Sans', Arial, Helvetica, sans-serif; color: #0A3161; padding-bottom: 20px; padding-top: 20px; padding-left: 10px; line-height: 21px; padding-right: 10px" align="right"> <a href="<%@ include view='MirrorPageUrl' %>" title="web browser" target="_blank" style="color:#0A3161; text-decoration: underline;">Web Version</a></td>
+      </tr>
+      </table></td>
+  </tr>
+  
+  <tr>
+    <td align="center"><table class="width100" cellspacing="0" cellpadding="0" width="600" border="0">
+      <tr>
+        <td style="padding: 0px;" align="center"><a href="http://www.com/?CMP=TrackingCode" target="_blank" title="Name Logo"><img style="display: block" alt="Logo Name" src="https://images.ctfassets.net/qhan1y12rkvl/kfAO8CWaNLUZM2jJ2IDTQ/fd7b2084e1daf55cbb9b4c3561924a17/trudgelover.png" width="275" height="auto" border="0"></a></td>
+      </tr>
+      </table></td>
+  </tr>
+  
+
+
+  
+  <tr bgcolor="#ffffff">
+    <td align="center" style="padding: 0 0;">
+    <table width="600" class="width100" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+         <td align="center" style="font-family: 'Anton', Arial, Helvetica, sans-serif; font-size: 40px; line-height: 48px; color: #B31942; padding: 30px 10px; text-align: center;">Fire up your 4th of July with spectacular savings at Trudgelover&nbsp;Lodge! 
+
+           </td>
+         </tr>
+                    <tr>
+                      <td align="center"><a href="#"><img class="mainimage" border="0" alt="Hero Image Lodge" src="https://images.ctfassets.net/qhan1y12rkvl/5BUzV7N8sIvi4gehOPIGy9/3eb39f01791e2fa02cc6e702ce07fb60/hero-image-lodge.jpg" width="600" height="auto" style="display: block;max-width: 600px;"></a></td>
+                    </tr>
+                         
+    <tr>
+      <td align="center" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 18px; line-height: 25px; color: #0A3161; padding: 20px ; text-align: left;">
+      <%=Salutation.name%>iscover the <a href="#" style="color: #0A3161; text-decoration:underline;font-weight: bold;">best deals</a> this 4th of July at Travel Lodge! Enjoy exclusive discounts on our cozy rooms, perfect for a summer getaway with family and friends. 
+      <br><br>Book now and <strong>save up to 30%</strong> on your stay, with complimentary breakfast and late checkout included. Whether you're planning a weekend escape or a week-long adventure, our unbeatable rates make it easier than ever to celebrate Independence Day in style. 
+      <br><br>Don't miss out on these limited&#8209;time offers – reserve your room today and make this 4th of July unforgettable!<sup>1</sup></td>
+      </tr>
+       
+      <tr>
+        <td align="center" style="padding: 0 0 30px;">
+           <table width="540" border="0" cellspacing="0" cellpadding="0" class="width90">
+              <tbody>
+                <tr>
+                  <td align="center" style="font-family: 'Anton', Arial, Helvetica, sans-serif; font-size: 40px; line-height: 48px; color: #B31942; padding: 30px 10px; text-align: center;">Enjoy these <u>FREE</u> Benefits of Staying at Trudgelover Lodge
+                 <tr>
+                  <td align="center" style="padding: 0 0 15px;"><table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+
+
+                    
+
+                    
+                      <tr>
+                        <td valign="top" align="center" width="60" style="padding: 0 10px; "><img src="https://images.ctfassets.net/qhan1y12rkvl/4J1ACNsswlF83vvI5AQKqi/eccd22eb08b4bda9ba94906b0cc453c4/breakfast.png" style="display: block;" width="60" border="0" alt="Breakfast icon" /></td>
+                        <td align="left"><table align="left" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td align="left" style="padding:0 10px; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24px; color: #0A3161;"><strong>Complimentary Breakfast:</strong> Start your day right with a delicious, complimentary breakfast included with your stay. Enjoy a variety of options to fuel your&nbsp;adventures.</td>
+                            </tr>
+                          </table></td>
+                      </tr>
+                    </table></td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding: 15px 0;"><table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                      
+                  <tr>
+                        <td valign="top" align="center" width="60" style="padding: 0 10px; "><img src="https://images.ctfassets.net/qhan1y12rkvl/4NwNlPKwnxxDx2Bqxh5BuF/ca43c76f6151fdcae0798c5e8a80e256/parking-area.png"style="display: block;" width="60" border="0" alt="Parking icon" /></td>
+                        <td align="left"><table align="left" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td align="left" style="padding:0 10px; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24px; color: #0A3161;"><strong>Free Parking:</strong> Travel hassle&#8209;free with our complimentary parking. Convenient and secure, our free parking ensures you can explore without any extra&nbsp;costs.</td>
+                            </tr>
+                          </table></td>
+                      </tr>
+                
+                
+                    </table></td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding: 15px 0 0;"><table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                    
+                       <tr> 
+                        <td  valign="top" align="center" width="60" style="padding: 0 10px; "><img src="https://images.ctfassets.net/qhan1y12rkvl/2aaqHTCvkyGtOD08b8D3Ny/5e80c41d64f37c93243791d97eeaefaa/wifi.png" style="display: block;" width="60" border="0" alt="Wifi icon" /></td>
+                        <td align="left"><table align="left" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td align="left" style="padding:0 10px; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24px; color: #0A3161;"><strong>Free Fast Wi&#8209;Fi:</strong> Stay connected with our high-speed, complimentary Wi&#8209;Fi. Whether for work or leisure, enjoy seamless internet access throughout your&nbsp;stay.</td>
+                            </tr>
+                          </table></td>
+                      </tr>
+                    </table></td>
+                </tr>
+
+              </tbody>
+           </table>
+        </td>
+     </tr>
+
+      <tr>
+        <td align="center" style="padding: 0 0 30px">
+            <div>
+                <!--[if mso]>
+                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:53px;v-text-anchor:middle;width:250px;" arcsize="50%" stroke="f" fillcolor="#0A3161">
+                   <a href="https://www.com/?CMP=trackingCode" class="width90">
+                      <w:anchorlock/>
+                   </a>
+                   <center>
+                      <![endif]--> 
+                      <a href="https://www.com/?CMP=trackingCode" class="width90" target="_blank" style="background-color:#0A3161;border-radius: 30px;color:#ffffff;display:inline-block;font-family: 'Anton', Arial, Helvetica, sans-serif;font-size:22px;line-height:53px;text-align:center;text-decoration:none;width:250px;-webkit-text-size-adjust:none;">Book now</a> 
+                      <!--[if mso]>
+                   </center>
+                </v:roundrect>
+                <![endif]--> 
+             </div>    
+        </td>
+      </tr> 
+  </table>
+</td>
+</tr>
+
+ 
+
+
+    
+    <tr>
+        <td align="center" style="padding: 0 0;">
+        <table width="600" border="0" cellspacing="0" cellpadding="0" class="width100">
+            <tr bgcolor="#f4f4f7">
+                <td align="center"><a href="#"><img class="mainimage" border="0" alt="Air Transat contest" src="https://images.ctfassets.net/qhan1y12rkvl/4mJ85nFprHDMK6jUHYmjkC/2e9510f0a0e660660f3ac29b0d14ff29/GIVEAWAY.jpg" width="600" height="auto" style="display: block;"></a></td>
+              </tr>
+            <tr>
+                <td style="font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size:30px; line-height: 34px; color: #0A3161; text-align: center; padding: 30px 20px 0;">Enter for a chance to win $1,000 <br class="hide">for your next vacation.
+                </td>
+              </tr>
+              <tr>
+                <td align="center" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24px; color: #0A3161; padding: 30px 20px 0px; text-align: center;">
+                  Win a Dream Getaway to Tofino, Vancouver Island! Enter now for your chance to experience breathtaking beaches, lush forests, and unforgettable coastal adventures. Don't miss this opportunity for the perfect escape! Enter by July 31st for your chance to win.*
+                </td>
+                </tr>
+
+                <% if (version=="TRLGV1" || version=="TRLGV2" || version=="TRLGV4") { %>  
+                <tr>
+                  <td align="center" style="padding: 0 0 10px;">
+                  <table width="600" border="0" cellspacing="0" cellpadding="0" class="width100">
+                    <tr>
+                      <td style="font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size:18px; line-height: 24px; color: #B31942; text-align: center; padding: 20px 20px 0; ">
+                      Only for members:
+                      </td>
+                    </tr>
+                      <tr>
+                          <td style="font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size:20px; line-height: 24px; color: #B31942; text-align: center; padding: 10px 20px 0px; ">
+                          <span style="font-size: 50px; line-height:45px; font-family: 'Anton', Arial, Helvetica, sans-serif;color:#B31942;">Redeem</span> <br>50 rewards points <br>and get an extra <br>chance to win&nbsp;big.
+                          </td>
+                        </tr>
+                         
+                  </table></td>
+              </tr>
+              <% } %>
+              
+                <tr>
+                    <td align="center" style="padding: 30px 0;">
+                        <div>
+                            <!--[if mso]>
+                            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:53px;v-text-anchor:middle;width:250px;" arcsize="50%" stroke="f" fillcolor="#0A3161">
+                               <a class="width90" href="https://www.com/?CMP=trackingCode">
+                                  <w:anchorlock/>
+                               </a>
+                               <center>
+                                  <![endif]--> 
+                                  <a class="width90" href="hhttps://www.com/?CMP=trackingCode" target="_blank" style="background-color:#0A3161;border-radius: 30px;color:#ffffff;display:inline-block;font-family: 'Anton', Arial, Helvetica, sans-serif;font-size:22px;line-height:53px;text-align:center;text-decoration:none;width:250px;-webkit-text-size-adjust:none;">Enter now</a> 
+                                  <!--[if mso]>
+                               </center>
+                            </v:roundrect>
+                            <![endif]--> 
+                         </div>    
+                    </td>
+                  </tr>
+                   
+        </table></td>
+    </tr>
+
+ 
+     
+       
+
+
+   
+          <tr bgcolor="#0A3161">
+            <td align="center" style="padding: 0 0 30px;">
+               <table width="80%" border="0" cellspacing="0" cellpadding="0" class="width90">
+                  <tbody>
+                     
+                   <tr>
+                    <td align="center" style="font-family: 'Anton', Arial, Helvetica, sans-serif; font-size: 30px; line-height: 34px; padding: 30px 20px ; color: #FFFFFF; text-align: center;">NEED A RIDE?
+                    </td>
+                 </tr>
+                   
+                       <tr>
+                         <td align="center"><table width="350" border="0" cellspacing="0" cellpadding="0">
+                           <tbody>
+                             
+                             <tr>
+                               <td width="65" style="padding: 0 15px 20px;"><a href="https://www.com/?CMP=trackingCode" target="blank"><img src="https://images.ctfassets.net/qhan1y12rkvl/223yQ82ozphPysvWpkAqim/b157c59b93ca3ce71fc2ee9e0fc16ac6/shuttle.png" width="65" alt="Shuttle icon"/></a></td>
+                               <td valign="middle" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 20px; line-height: 24px; color: #FFFFFF; padding: 0 0 20px;">
+                                  <a href="https://www.com/?CMP=trackingCode" alt="Book shuttle" target="blank" style="color:#FFFFFF; text-decoration:none;"> Book a shuttle <span style="text-decoration:underline;">here</span></a>
+                               </td>
+                             </tr>
+                             <tr>
+                              <td width="65" style="padding: 0 15px 20px;"><a href="https://www.com/?CMP=trackingCode" target="blank"><img src="https://images.ctfassets.net/qhan1y12rkvl/153H5B0dw2RNi5zz05A7HA/42ee92c988b47413f450844d5ea2d4db/car-rental.png" width="65" alt="Rental car icon"/></a></td>
+                              <td valign="middle" style="font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 20px; line-height: 24px; color: #FFFFFF; padding: 0 0 20px;">
+                                 <a href="https://www.com/?CMP=trackingCode" alt="Rent a car" target="blank" style="color:#FFFFFF; text-decoration:none;">Rent a car & pick&nbsp;up <span style="text-decoration:underline;">here</span> </a>
+                              </td>
+                            </tr> 
+                             
+                            
+
+                           </tbody>
+                         </table></td>
+                       </tr>
+             
+                  </tbody>
+               </table>
+            </td>
+        </tr>
+         
+   
+  
+        
+
+  <tr>
+    <td style="padding-top: 20px 0px;" bgColor="#ffffff" align="center">
+    <table class="width90" cellspacing="0" cellpadding="0" width="540" border="0">
+        <tbody>
+          <tr>
+            <td style="font-size: 12px; font-family: 'Open Sans', Arial, Helvetica, sans-serif; color: #000000; line-height: 16px; padding:20px 5px;">
+              1. LEGAL GOES HERE 1
+              <br><br>
+              <% if (version=="TRLGV1" || version=="TRLGV2" || version=="TRLGV3") { %>
+              <% } else { %>
+              * DYNAMIC LEGAL GOES HERE  
+              <% } %>
+            
+            <br><br>
+             
+            You are subscribed as <span style="white-space: nowrap;"><a style="color:#0A3161; text-decoration:underline;" href="mailto:<%= recipient.email %>"><%= recipient.email %></a></span>. If you no longer wish to receive marketing emails, please <a href="<%@ include view='UnsubscriptionLink' %>" _type="optout" _label="Opt-out link" alias="Unsubscribe" target="_blank" style="color:#0A3161; text-decoration:underline;">unsubscribe here</a>.<br />
+            <br>
+             
+            © <%= formatDate(new Date(), "%4Y") %> Trudgelover lodge - Hiking Club. All rights reserved.
+            <br><br>
+            </td>
+          </tr>
+          
+        </tbody>
+      </table></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#000000" style="padding: 20px 0;">
+       <table width="230" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tbody>
+         <tr>
+          <td align="center">
+             <table width="150" border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+               <tr>
+                <td>
+                   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                     <tr>
+                      <td align="left"><a href="https://instagram.com/" target="_blank" title="Instagram"><img src="https://images.ctfassets.net/qhan1y12rkvl/5zKvoh8hE0ToMZi2ue4wYA/c707a9101c74061e4e73529c4ea4d51e/instagram.png" width="35" border="0"  alt="Instagram" style="display:block;"></a></td>
+                      <td align="center"><a href="https://www.facebook.com/" target="_blank" title="Facebook"><img src="https://images.ctfassets.net/qhan1y12rkvl/1rrQiZvsNdmWg7mva0ISRx/11b821f8a2856663f724944978a7bfd4/facebook.png" width="35" border="0" alt="Facebook" style="display:block;"></a></td>
+                      <td align="right"><a href="https://tiktok.com" target="_blank" title="TikTok"><img src="https://images.ctfassets.net/qhan1y12rkvl/7iYa5vFvi7uxvYZrVC8inK/9553182a4cb1c426eab4ef36d36bca41/tik-tok.png" width="35" border="0" alt="Tiktok" style="display:block;"></a></td>
+                      <td align="right"><a href="https://airbnb.com/" target="_blank" title="airbnb"><img src="https://images.ctfassets.net/qhan1y12rkvl/3ylJwnSY7NKSJK6wrmDMkz/ebc1d66afab8f5a95d778b3ccfb662fd/airbnb.png" width="35" border="0" alt="airbnb" style="display:block;"/></a></td>
+                     </tr>
+                    </tbody>
+                   </table>
+                </td>
+               </tr>
+              </tbody>
+             </table>
+          </td>
+         </tr>
+        </tbody>
+       </table>
+    </td>
+   </tr>
+
+</table>
+</body>
+</html>
